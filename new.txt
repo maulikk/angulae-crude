@@ -8,3 +8,11 @@ https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/CollaborativeEditin
               [showBorders]="true">
 </dx-data-grid>
 
+<p>
+  entity-grid-page works!
+</p>
+<div class="container-fluid">
+  <app-entity-grid></app-entity-grid>
+</div>
+
+
