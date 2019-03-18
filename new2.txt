@@ -1,2 +1,41 @@
-
-123
+<nav class="navbar navbar-expand fixed-top fixed-top-2">
+  <a class="navbar-brand mr-auto" routerLink="#">
+    <span class="title">The selected page</span>
+  </a>
+  <div class="navbar-nav">
+    <i class="nav-icon fa fa-th"></i>
+    <a class="nav-item nav-link active">Applications</a>
+  </div>
+  <div class="navbar-nav dropdown">
+    <i class="nav-icon fa fa-cog"></i>
+    <a class="nav-link nav-item dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      System
+    </a>
+    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+      <a class="dropdown-item" href="#">Badges</a>
+      <a class="dropdown-item" href="#">Tags</a>
+      <a class="dropdown-item" href="#">Sync File Upload</a>
+      <a class="dropdown-item" href="#">App Ideas</a>
+      <a class="dropdown-item" href="#">Jobs</a>
+    </div>
+  </div>
+  <div class="navbar-nav">
+    <i class="nav-icon fa fa-user"></i>
+    <a class="nav-item nav-link active">Users</a>
+  </div>
+  <div class="navbar-nav">
+    <i class="nav-icon fa fa-cube"></i>
+    <a class="nav-item nav-link active">Workspaces</a>
+  </div>
+  <div class="navbar-nav dropdown">
+    <i class="nav-icon fa fa-file-text"></i>
+    <a class="nav-link nav-item dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Logs
+    </a>
+    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+      <a class="dropdown-item" href="#">Event Log</a>
+      <a class="dropdown-item" href="#">Debug Log</a>
+      <a class="dropdown-item" href="#">Error Log</a>
+    </div>
+  </div>
+</nav>
