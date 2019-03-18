@@ -1,1 +1,10 @@
 https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/CollaborativeEditing/Angular/Light/
+
+<p>
+  entity-grid works!
+</p>
+<dx-data-grid id="gridContainer"
+              [columns]="['CompanyName', 'City', 'State', 'Phone', 'Fax']"
+              [showBorders]="true">
+</dx-data-grid>
+
